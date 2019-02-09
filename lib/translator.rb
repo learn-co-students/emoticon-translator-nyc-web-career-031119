@@ -36,7 +36,7 @@ end
 def get_english_meaning(file_path, given_emoji)
   # code goes here
 emojis = load_library(file_path)
-eng_emoji = emojis["get_meaning"][given_emoji]
+eng_emoji = emojis["get_meaning"][given_emoji]#displays eng imoji for jap emoji given
   if eng_emoji == nil
     eng_emoji = "Sorry, that emoticon was not found"
   end
